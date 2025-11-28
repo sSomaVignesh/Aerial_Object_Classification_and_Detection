@@ -1,7 +1,6 @@
 streamlit
-tensorflow-cpu==2.12.0
+tflite-runtime
 numpy
 pillow
-protobuf==3.20.*
-h5py
 gdown
+protobuf==3.20.*
