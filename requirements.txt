@@ -1,0 +1,9 @@
+streamlit
+tensorflow==2.13.0
+numpy
+pillow
+protobuf==3.20.*
+h5py
+tensorflow-hub
+tensorflow-io
+gdown
