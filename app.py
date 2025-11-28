@@ -8,11 +8,11 @@ import os
 # ---------------------------------------------------------
 # Google Drive Model Download
 # ---------------------------------------------------------
-MODEL_PATH = "best_custom_model.h5"
+MODEL_PATH = "best_custom_model.tflite"
 
 def download_model():
     if not os.path.exists(MODEL_PATH):
-        url = f"https://drive.google.com/file/d/1u7TP6tVNHRhY9gb4mlRxtY-tTBO6eMBq/view?usp=sharing"
+        url = f"https://drive.google.com/file/d/1T-V6J_X0gH3qjGaIMngNGcgKUhpzruLa/view?usp=sharing"
         gdown.download(url, MODEL_PATH, quiet=False)
     return MODEL_PATH
 
