@@ -1,6 +1,9 @@
 streamlit
-tflite-runtime
+tensorflow==2.13.0
 numpy
 pillow
-gdown
 protobuf==3.20.*
+h5py
+tensorflow-hub
+tensorflow-io
+gdown
