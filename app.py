@@ -8,12 +8,11 @@ import tflite_runtime.interpreter as tflite
 # ---------------------------------------------------------
 # Google Drive TFLite Model Download
 # ---------------------------------------------------------
-FILE_ID = "YOUR_FILE_ID_HERE"   # <-- REPLACE THIS
-MODEL_PATH = "model.tflite"
+MODEL_PATH = "best_custom_model.tflite"
 
 def download_model():
     if not os.path.exists(MODEL_PATH):
-        url = f"https://drive.google.com/uc?id={FILE_ID}"
+        url = f"https://drive.google.com/file/d/1T-V6J_X0gH3qjGaIMngNGcgKUhpzruLa/view?usp=sharing"
         gdown.download(url, MODEL_PATH, quiet=False)
     return MODEL_PATH
 
